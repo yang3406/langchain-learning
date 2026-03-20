@@ -1,1 +1,31 @@
-site_name: My Docs
+site_name: langchain | study
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-outline
+        name: Switch to light mode
+  language: zh
+  features:
+    - navigation.tabs # 顶部分类标签
+    - navigation.top # 返回顶部按钮
+    - search.highlight # 搜索结果高亮
+
+copyright: '三个字的学习博客'   
+
+nav:
+  - 首页: index.md
+  - 构建mkdocs: mkdocs\index.md
+  - langchain:
+      - 第一周基础入门:
+        - day01: langchain\week01-基础入门\day01.md
+
