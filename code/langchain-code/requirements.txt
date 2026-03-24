@@ -1,0 +1,10 @@
+# LangChain 核心依赖包
+langchain==1.2.13
+langchain-core==1.2.20
+python-dotenv==1.2.2
+
+# 注意：init_chat_model 已内置支持常见模型提供商
+# 如需特定模型支持，可按需安装：
+# pip install langchain-openai  # OpenAI 支持
+# pip install langchain-anthropic  # Anthropic 支持
+# pip install langchain-google-genai  # Google Gemini 支持
