@@ -1,4 +1,4 @@
-site_name: langchain | study
+site_name: yjs | study
 theme:
   name: material
   palette:
@@ -25,6 +25,11 @@ copyright: '三个字的学习博客'
 nav:
   - 首页: index.md
   - 构建mkdocs: mkdocs\index.md
+  - agent:
+      - 基础|单词: agent\00-单词-基础.md
+      - 简介: agent\01-基本简介.md
+      - 02-什么是智能体: agent\02-什么是智能体.md
+      - 核心概念&流程: agent\03-核心概念&流程.md
   - langchain:
       - 第一周基础入门:
         - day01: langchain\week01-基础入门\day01.md

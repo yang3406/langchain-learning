@@ -122,8 +122,6 @@ LLM 初始化和配置
 - **原因**：忘记加 memory 组件
 - **解决**：在 ConversationChain 中添加 memory=memory
 
-## 代码清单
-- [app.py](./app.py) - 完整的聊天程序
 
 ## 运行效果截图
 （可以放截图）
