@@ -33,6 +33,7 @@ nav:
       - 技术架构:
         - 技术架构-流程: agent\04-技术架构-组成&流程.md
         - 技术架构-profile(配置): agent\05-技术架构-profile(配置).md
+        - 技术架构-Percept(感知): agent\06-技术架构-Percept(感知).md
 
 
   - langchain:
