@@ -28,14 +28,13 @@ nav:
   - agent:
       - 基础|单词: agent\00-单词-基础.md
       - 简介: agent\01-基本简介.md
-      - 02-什么是智能体: agent\02-什么是智能体.md
+      - 什么是智能体: agent\02-什么是智能体.md
       - 核心概念&流程: agent\03-核心概念&流程.md
       - 技术架构:
         - 技术架构-流程: agent\04-技术架构-组成&流程.md
         - 技术架构-profile(配置): agent\05-技术架构-profile(配置).md
         - 技术架构-Percept(感知): agent\06-技术架构-Percept(感知).md
-
-
+        - 技术架构-Planning&Reasoning: agent\07-技术架构-Planning&Reasoning.md
   - langchain:
       - 第一周基础入门:
         - day01: langchain\week01-基础入门\day01.md
