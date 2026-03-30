@@ -35,6 +35,7 @@ nav:
         - 技术架构-profile(配置): agent\05-技术架构-profile(配置).md
         - 技术架构-Percept(感知): agent\06-技术架构-Percept(感知).md
         - 技术架构-Planning&Reasoning: agent\07-技术架构-Planning&Reasoning.md
+        - 技术架构-Acttion(行动): agent\08-技术架构-Acttion(行动).md
   - langchain:
       - 第一周基础入门:
         - day01: langchain\week01-基础入门\day01.md
