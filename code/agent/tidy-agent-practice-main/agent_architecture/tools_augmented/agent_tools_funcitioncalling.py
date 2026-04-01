@@ -1,5 +1,11 @@
 import os
+import sys
 from typing import Any
+
+# 将项目根目录加入 sys.path，保证 `from tools...` 能找到模块
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
 
 import json
 
@@ -194,7 +200,7 @@ def run_conversation(user_message: str) -> str:
 # 示例使用
 if __name__ == "__main__":
     # 示例1：需要多轮工具调用的天气查询
-    user_question1 = "上海天气如何？"
+    user_question1 = "深圳今天的天气如何？返回需要携带日期和天气状况。"
     print(f"用户: {user_question1}")
     answer1 = run_conversation(user_question1)
     print(f"助手: {answer1}")
