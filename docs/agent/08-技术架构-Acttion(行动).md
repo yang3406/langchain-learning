@@ -62,4 +62,17 @@
 ![alt text](image-15.png)
 
 
+## 3.工具增强型提示和Function Calling对比
 
+![alt text](image-16.png)
+
+## 4.Funciton Calling函数调用机制升级为Tools
+
+### 4.1 升级的原因
+![alt text](image-19.png)
+
+![alt text](image-20.png)
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
