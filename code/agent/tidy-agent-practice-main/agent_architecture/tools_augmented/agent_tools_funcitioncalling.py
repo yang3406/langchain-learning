@@ -185,6 +185,8 @@ def run_conversation(user_message: str) -> str:
                     })
 
                     function_call_count += 1
+                    print(f"函数调用次数: {function_call_count}")
+                    print(f"匹配到的函数: {function_name}")
                 except Exception as e:
                     return f"执行工具时出错: {e}"
             else:
