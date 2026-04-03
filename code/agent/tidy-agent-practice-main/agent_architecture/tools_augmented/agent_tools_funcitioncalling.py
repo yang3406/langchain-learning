@@ -202,7 +202,7 @@ def run_conversation(user_message: str) -> str:
 # 示例使用
 if __name__ == "__main__":
     # 示例1：需要多轮工具调用的天气查询
-    user_question1 = "深圳今天的天气如何？返回需要携带日期和天气状况。"
+    user_question1 = "深圳4月2号的天气如何？返回需要携带日期和天气状况。"
     print(f"用户: {user_question1}")
     answer1 = run_conversation(user_question1)
     print(f"助手: {answer1}")
