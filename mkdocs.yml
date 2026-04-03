@@ -37,6 +37,8 @@ nav:
         - 技术架构-Planning&Reasoning: agent\07-技术架构-Planning&Reasoning.md
         - 技术架构-Acttion(行动): agent\08-技术架构-Acttion(行动).md
         - 技术架构-Acttion(行动)-MCP: agent\08-技术架构-Acttion-MCP.md
+  - agent-tv:
+    - 基础概念: agent-tv\01-基础.md      
   - langchain:
       - 第一周基础入门:
         - day01: langchain\week01-基础入门\day01.md
