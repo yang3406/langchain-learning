@@ -36,9 +36,10 @@ nav:
         - 技术架构-Percept(感知): agent\06-技术架构-Percept(感知).md
         - 技术架构-Planning&Reasoning: agent\07-技术架构-Planning&Reasoning.md
         - 技术架构-Acttion(行动): agent\08-技术架构-Acttion(行动).md
-        - 技术架构-Acttion(行动)-MCP: agent\08-技术架构-Acttion-MCP.md
+        - 技术架构-Acttion(行动)-MCP: agent\09-技术架构-Acttion-MCP.md
   - agent-tv:
     - 基础概念: agent-tv\01-基础.md      
+    - 提示词工程: agent-tv\02-提示词工程.md      
   - langchain:
       - 第一周基础入门:
         - day01: langchain\week01-基础入门\day01.md
