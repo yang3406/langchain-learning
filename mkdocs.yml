@@ -38,6 +38,8 @@ nav:
         - 技术架构-Acttion(行动): agent\08-技术架构-Acttion(行动).md
         - 技术架构-Acttion(行动)-MCP: agent\09-技术架构-Acttion-MCP.md
         - 技术架构-Memory(记忆): agent\10-技术架构-Memory(记忆).md
+        - 技术架构-Learning(学习): agent\11-技术架构-Learning(学习).md
+        - 技术架构-Context Manager(上下文管理): agent\12-技术架构-ContextManager.md
   - agent-tv:
     - 基础概念: agent-tv\01-基础.md      
     - 提示词工程: agent-tv\02-提示词工程.md      
