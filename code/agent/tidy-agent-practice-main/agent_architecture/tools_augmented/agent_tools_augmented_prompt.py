@@ -166,6 +166,7 @@ def run_conversation(user_message: str) -> str:
 
     # 检查是否包含函数调用
     function_call = parse_function_call(assistant_message)
+    print(f"function_call: {function_call}")
 
     if function_call:
         # 执行函数调用
@@ -198,7 +199,7 @@ def run_conversation(user_message: str) -> str:
 # 示例使用
 if __name__ == "__main__":
     # 示例1：天气查询
-    user_question1 = "北京明天（2025-05-27）天气如何？"
+    user_question1 = "北京明天（2025-05-31）天气如何？"
     print(f"用户: {user_question1}")
     answer1 = run_conversation(user_question1)
     print(f"助手: {answer1}")
