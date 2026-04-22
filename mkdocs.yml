@@ -41,9 +41,12 @@ nav:
         - 技术架构-Learning(学习): agent\11-技术架构-Learning(学习).md
         - 技术架构-Context Manager(上下文管理): agent\12-技术架构-ContextManager.md
         - 技术架构-Orchestration(编排): agent\13-技术架构-Orchestration.md
-  - agent-tv:
-    - 基础概念: agent-tv\01-基础.md      
-    - 提示词工程: agent-tv\02-提示词工程.md      
+  - agent-skills: 
+    - 认知和工作原理: skills\01-认知和工作原理.md
+    - 规范详解: skills\02-规范详解.md
+  # - agent-tv:
+  #   - 基础概念: agent-tv\01-基础.md      
+  #   - 提示词工程: agent-tv\02-提示词工程.md      
   - langchain:
       - 第一周基础入门:
         - day01: langchain\week01-基础入门\day01.md
